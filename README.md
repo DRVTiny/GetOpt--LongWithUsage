@@ -8,6 +8,7 @@ EXAMPLE
 
 (From real-life utility. There is some russian text... sorry :) )
 <pre>
+use Getopt::LongWithUsage qw(GetOptsAndUsage);
 my %options;
 @options{('staticData','lstConnPars','excludeGroups','lstBlockSeq','lstColMap','lstMethods2Debug','CSVFldSep')}=
          (substr($0,0,rindex($0,".")).'.dat',[],[],[],[],[],DFLT_CSV_FIELD_SEP,DFLT_TEXT_QUOTE);         
@@ -34,5 +35,4 @@ my %OptsDescr=(
 GetOptsAndUsage(\%OptsDescr);
 
 print "Following options was passed to me: \n".Dumper(\%options) if $options{'flBeVerbose'};
-
 </pre>
