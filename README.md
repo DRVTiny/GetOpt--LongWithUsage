@@ -3,6 +3,11 @@ GetOpt--LongWithUsage
 
 Simple extension to standart Getopt::Long, that provides auto-usage capability without bullshit
 
+REQUIREMENTS
+============
+
+You must install Text::Aligner to use this module
+
 EXAMPLE
 =======
 
