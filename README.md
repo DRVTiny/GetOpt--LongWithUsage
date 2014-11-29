@@ -2,7 +2,8 @@ ABOUT
 =====
 
 GetOpt::LongWithUsage extends Getopt::Long functionality by adding auto-usage/help capability.
-I.e. it provides 2 additional options: --usage and --help which will be formed from the text provided by you.
+
+It provides 2 additional options: --usage and --help which will be formed from the text provided by you.
 
 REQUIREMENTS
 ============
