@@ -1,7 +1,14 @@
-GetOpt--LongWithUsage
-=====================
+ABOUT
+=====
 
-Simple extension to standart Getopt::Long, that provides auto-usage capability without bullshit
+GetOpt::LongWithUsage extends Getopt::Long functionality by adding auto-usage/help capability.
+
+It provides 2 additional options: --usage and --help which will be formed from the text provided by you.
+
+REQUIREMENTS
+============
+
+You must install Text::Aligner and, of course, Getopt::Long, to use this module
 
 EXAMPLE
 =======
